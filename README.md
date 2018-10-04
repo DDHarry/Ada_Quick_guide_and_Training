@@ -4,8 +4,8 @@ Some Ada exercices and snippets
 ## Compiling
 The path of compilation is
 
-    >gcc -c main_mine.adb
-    >gcc -c greetings.adb
+    > gcc -c main_mine.adb
+    > gcc -c greetings.adb
 
 and
 
