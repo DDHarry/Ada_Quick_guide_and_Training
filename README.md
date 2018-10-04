@@ -15,7 +15,7 @@ The path of compilation is
     > gcc -c -gnatc greetings.ads
     
     
-  Much more simply
+  ### Much more simply
   
     > gnatmake main_mine.adb
       
