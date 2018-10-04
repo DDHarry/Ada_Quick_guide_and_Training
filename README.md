@@ -8,9 +8,10 @@ The path of compilation is
 
   > gcc -c greetings.adb
 
-> gnatbind main
+and
 
-> gnatlink main
+    > gnatbind main
+    > gnatlink main
   
   If you wish to check the specs
   
