@@ -5,11 +5,9 @@ Some Ada exercices and snippets
 The path of compilation is
 
     >gcc -c main.adb
-
     >gcc -c greetings.adb
 
 and
-
     > gnatbind main
     > gnatlink main
   
