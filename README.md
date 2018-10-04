@@ -23,7 +23,7 @@ and
       
  or
  
-    > gnatmake my_file.adb -D directory_path -o exe_dir/my_file_executable
+    > gnatmake my_file.adb -D directory_path -o exe_dir/my_file_with_the_name_i_want_executable
     
 By default, the executable output of "main_mine.adb" is "main" ,
     
