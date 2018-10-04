@@ -7,8 +7,6 @@ The path of compilation is
     > gcc -c main_mine.adb
     > gcc -c greetings.adb
 
-and
-
     > gnatbind main_mine
     > gnatlink main_mine
   
