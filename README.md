@@ -10,7 +10,8 @@ The path of compilation is
         > gnatlink main
   
   If you wish to check the specs
-    gcc -c -gnatc greetings.ads
+  
+    > gcc -c -gnatc greetings.ads
     
   Much more simply
   
