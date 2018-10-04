@@ -19,7 +19,7 @@ The path of compilation is
  
     gnatmake my_file.adb -D directory_path -o exe_file
     
--- By default, the executable output is "main" ,
+By default, the executable output is "main" ,
     
     ./main
     
