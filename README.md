@@ -3,8 +3,8 @@ Some Ada exercices and snippets
 
 ## Compiling
 The path of compilation is
-    > gcc -c main.adb
-    > gcc -c greetings.adb
+    gcc -c main.adb
+    gcc -c greetings.adb
     > gnatbind main
     > gnatlink main
   
