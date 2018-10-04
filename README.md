@@ -14,17 +14,17 @@ and
   
   If you wish to check the specs
   
-        > gcc -c -gnatc greetings.ads
+    > gcc -c -gnatc greetings.ads
     
   Much more simply
   
-        > gnatmake main.adb
+    > gnatmake main.adb
       
  or
  
-        > gnatmake my_file.adb -D directory_path -o exe_file
+    > gnatmake my_file.adb -D directory_path -o exe_file
     
 By default, the executable output is "main" ,
     
-        > ./main
+    > ./main
     
