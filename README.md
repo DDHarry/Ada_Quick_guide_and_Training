@@ -4,10 +4,10 @@ Some Ada exercices and snippets
 ## Compiling
 The path of compilation is
 
-    gcc -c main.adb
-    gcc -c greetings.adb
-    > gnatbind main
-    > gnatlink main
+        > gcc -c main.adb
+        > gcc -c greetings.adb
+        > gnatbind main
+        > gnatlink main
   
   If you wish to check the specs
     gcc -c -gnatc greetings.ads
