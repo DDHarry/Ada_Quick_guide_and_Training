@@ -19,13 +19,13 @@ and
     
   Much more simply
   
-    > gnatmake main.adb
+    > gnatmake main_mine.adb
       
  or
  
-    > gnatmake my_file.adb -D directory_path -o exe_file
+    > gnatmake my_file.adb -D directory_path -o exe_dir/my_file_executable
     
-By default, the executable output is "main" ,
+By default, the executable output of "main_mine.adb" is "main" ,
     
     > ./main
     
