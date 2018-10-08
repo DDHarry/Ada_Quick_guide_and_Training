@@ -58,6 +58,13 @@ In Ada, the main procedure does not need to be called 'main', any name can be gi
         begin
             IO.Put_Line("Hello, renames");
             
+
+
+### General rule
+"use" for the most used packages (define them);
+
+"renames" for all other packages.
+
 e
 e
 e
