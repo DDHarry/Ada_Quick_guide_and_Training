@@ -15,7 +15,7 @@ The path of compilation is
     > gcc -c -gnatc greetings.ads
     
     
-  ### Much simpler
+  ### *Much simpler
   
     > gnatmake main_mine.adb
       
@@ -28,7 +28,7 @@ By default, the executable output of "main_mine.adb" is "main" ,
     > ./main
     
 
-### Notes on the 'main' procedure/program
+### *Notes on the 'main' procedure/program
 In Ada, the main procedure does not need to be called 'main', any name can be given.
 
 
