@@ -34,11 +34,18 @@ In Ada, the main procedure does not need to be called 'main', any name can be gi
 ## with, use, renames
 
 - A with clause makes the content of a package visible by selection,
+
         with Ada.Text_IO;
         ..
             Ada.Text_IO.Put_Line("Heelo World");
             
 - A 'use' clause makes all the content of a package directly visible. Less typing and less readability.
+
+    with Ada.Text_IO;
+    use Ada.Text_IO;
+    ..
+    Put_Line("Hello_World");
+    
 
 - By renaming, we get a shorter alias to any package name
 
