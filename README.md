@@ -1,7 +1,7 @@
 # Ada
 Some Ada exercices and snippets
 
-## Compiling
+## COMPILING
 The path of compilation is
 
     > gcc -c main_mine.adb
@@ -33,7 +33,7 @@ In Ada, the main procedure does not need to be called 'main', any name can be gi
 
 
 
-## with, use, renames
+## WITH, USE, RENAMES
 
 - A with clause makes the content of a package visible by selection,
 
