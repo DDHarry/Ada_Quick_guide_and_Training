@@ -21,11 +21,11 @@ The path of compilation is
       
  or
  
-    > gnatmake my_file.adb -D directory_path -o exe_dir/my_file_with_the_name_i_want_executable
+    > gnatmake my_file.adb -D directory_path -o exe_dir/my_executable_file_with_the_name_i_want
     
-By default, the executable output of "main_mine.adb" is "main" ,
+By default, the executable output of "main_mine.adb" is "main_mine" ,
     
-    > ./main
+    > ./main_mine
     
 
 ### Notes on the 'main' procedure/program
@@ -39,7 +39,7 @@ In Ada, the main procedure does not need to be called 'main', any name can be gi
 
         with Ada.Text_IO;
         ..
-            Ada.Text_IO.Put_Line("Heelo World");
+            Ada.Text_IO.Put_Line("Hello, World");
             
 - A 'use' clause makes all the content of a package directly visible. Less typing and less readability.
 
