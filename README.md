@@ -28,8 +28,10 @@ By default, the executable output of "main_mine.adb" is "main" ,
     > ./main
     
 
-### Notes on the 'main' procedire/program
+### Notes on the 'main' procedure/program
 In Ada, the main procedure does not need to be called 'main', any name can be given.
+
+
 
 ## with, use, renames
 
@@ -41,10 +43,10 @@ In Ada, the main procedure does not need to be called 'main', any name can be gi
             
 - A 'use' clause makes all the content of a package directly visible. Less typing and less readability.
 
-    with Ada.Text_IO;
-    use Ada.Text_IO;
-    ..
-    Put_Line("Hello_World");
+        with Ada.Text_IO;
+        use Ada.Text_IO;
+        ..
+        Put_Line("Hello_World");
     
 
 - By renaming, we get a shorter alias to any package name
@@ -56,5 +58,6 @@ In Ada, the main procedure does not need to be called 'main', any name can be gi
         begin
             IO.Put_Line("Hello, renames");
             
+e
 e
 e
