@@ -15,7 +15,7 @@ The path of compilation is
     > gcc -c -gnatc greetings.ads
     
     
-  ### Much more simply
+  ### Much simpler
   
     > gnatmake main_mine.adb
       
@@ -27,3 +27,27 @@ By default, the executable output of "main_mine.adb" is "main" ,
     
     > ./main
     
+
+### Notes on the 'main' procedire/program
+In Ada, the main procedure does not need to be called 'main', any name can be given.
+
+## with, use, renames
+
+- A with clause makes the content of a package visible by selection,
+        with Ada.Text_IO;
+        ..
+            Ada.Text_IO.Put_Line("Heelo World");
+            
+- A 'use' clause makes all the content of a package directly visible. Less typing and less readability.
+
+- By renaming, we get a shorter alias to any package name
+
+        with Ada.Text_IO;
+        
+        procedure ..
+            package IO renames Ada.Text_IO;
+        begin
+            IO.Put_Line("Hello, renames");
+            
+e
+e
