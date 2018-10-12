@@ -1,6 +1,8 @@
 # Ada
 Some Ada exercices and snippets
 
+                ===> Write the Basic stuff here!
+
 ## COMPILING
 The path of compilation is
 
