@@ -20,18 +20,18 @@ gnatmake main_mine.adb -D path_to_the_prog -o dir_for_executable/my_executable_f
 ## 1.c. More about compilation
 
 The path of compilation is
-```Ada
+```shell
 gcc -c main_mine.adb
 gcc -c greetings.adb
 ```
 to bind them
-```Ada
+```shell
 gnatbind main_mine
 gnatlink main_mine
 ```
   
 If you wish to check the specs
-```ada  
+```shell
 gcc -c -gnatc greetings.ads
 ```
 
