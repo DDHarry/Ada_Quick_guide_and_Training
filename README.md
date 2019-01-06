@@ -30,7 +30,14 @@ If you wish to check the specs
 gcc -c -gnatc greetings.ads
 ```
 
-
+```Ada
+with Ada.Text_IO;
+use Ada.Text_IO;
+begin
+  int A = 2;
+  end
+  ```
+  
 
     
   ### Much simpler
