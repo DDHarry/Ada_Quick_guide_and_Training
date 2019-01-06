@@ -1,4 +1,4 @@
-# Running and compiling in Ada
+# 1.Running and compiling in Ada
 
 Let us consider main_mine.adb as our program. Then
 ```ada
@@ -30,26 +30,27 @@ If you wish to check the specs
 gcc -c -gnatc greetings.ads
 ```
 
+
+
+
+
+# 2. Anatomy of an Ada program
+
+The name of the program, cf. [ARM](link_here)
+
+
+
 ```Ada
 with Ada.Text_IO;
 use Ada.Text_IO;
 begin
-  int A = 2;
-  end
+  -- Some instructions
+end
   ```
-  
 
-    
-  ### Much simpler
-  
-    > gnatmake main_mine.adb
-      
-
-    
 
 ### Notes on the 'main' procedure/program
 In Ada, the main procedure does not need to be called 'main', any name can be given.
-
 
 
 ## WITH, USE, RENAMES
