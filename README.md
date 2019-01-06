@@ -1,12 +1,14 @@
 # Running and compiling in Ada
 
 Let us consider main_mine.adb as our program. Then
-```Ada
+```ada
 gnatmake main_mine.adb
 ```
- or
- ```Ada
-     gnatmake main_mine.adb -D path_to_the_prog -o dir_for_executable/my_executable_file_with_the_name_i_want
+By default, the executable output of "main_mine.adb" is "main_mine".
+Precising the paths,
+
+```Ada
+gnatmake main_mine.adb -D path_to_the_prog -o dir_for_executable/my_executable_file_with_the_name_i_want
 ```
 
 
@@ -14,29 +16,28 @@ gnatmake main_mine.adb
 
 The path of compilation is
 ```Ada
-     gcc -c main_mine.adb
-     gcc -c greetings.adb
+gcc -c main_mine.adb
+gcc -c greetings.adb
 ```
 to bind them
 ```Ada
-     gnatbind main_mine
-     gnatlink main_mine
-  ```
+gnatbind main_mine
+gnatlink main_mine
+```
   
-  If you wish to check the specs
-  
-    > gcc -c -gnatc greetings.ads
-    
+If you wish to check the specs
+```ada  
+gcc -c -gnatc greetings.ads
+```
+
+
+
     
   ### Much simpler
   
     > gnatmake main_mine.adb
       
 
-    
-By default, the executable output of "main_mine.adb" is "main_mine" ,
-    
-    > ./main_mine
     
 
 ### Notes on the 'main' procedure/program
