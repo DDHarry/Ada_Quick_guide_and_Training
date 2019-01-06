@@ -37,6 +37,8 @@ gcc -c -gnatc greetings.ads
 
 # 2. Anatomy of an Ada program
 
+## 2.a. The program
+
 The name of the program, cf. [ARM](link_here)
 
 
@@ -54,9 +56,9 @@ end
 In Ada, the main procedure does not need to be called 'main', any name can be given.
 
 
-** Nota Bene ** About WITH, USE, RENAMES
+## 2.b. About *with, use, renames*
 
-- A with clause makes the content of a package visible by selection,
+- A ```with``` clause makes the content of a package visible by selection,
 ```Ada
         with Ada.Text_IO;
         ..
@@ -87,6 +89,14 @@ In Ada, the main procedure does not need to be called 'main', any name can be gi
 
 "renames" for all other packages.
 
-e
-e
-e
+
+# 3. The *Hello World* program
+
+```Ada
+with Ada.Text_IO;
+...
+```
+
+
+# 4. Help and References
+-- Here!
