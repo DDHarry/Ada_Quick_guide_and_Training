@@ -3,19 +3,21 @@
 ## 1.a. Compiling
 
 Let us consider main_mine.adb as our program. Then
-```ada
+```bash
 gnatmake main_mine.adb
 ```
 By default, the executable output of "main_mine.adb" is "main_mine".
 Precising the paths,
 
-```Ada
+```shell
 gnatmake main_mine.adb -D path_to_the_prog -o dir_for_executable/my_executable_file_with_the_name_i_want
 ```
 ## 1.b. Running
+```Bash
+./of_course
+```
 
-
-### More about compilation
+## 1.c. More about compilation
 
 The path of compilation is
 ```Ada
