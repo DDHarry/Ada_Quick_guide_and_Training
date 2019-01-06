@@ -1,5 +1,7 @@
 # 1.Running and compiling in Ada
 
+## 1.a. Compiling
+
 Let us consider main_mine.adb as our program. Then
 ```ada
 gnatmake main_mine.adb
@@ -10,6 +12,7 @@ Precising the paths,
 ```Ada
 gnatmake main_mine.adb -D path_to_the_prog -o dir_for_executable/my_executable_file_with_the_name_i_want
 ```
+## 1.b. Running
 
 
 ### More about compilation
@@ -32,8 +35,6 @@ gcc -c -gnatc greetings.ads
 
 
 
-
-
 # 2. Anatomy of an Ada program
 
 The name of the program, cf. [ARM](link_here)
@@ -49,17 +50,18 @@ end
   ```
 
 
-### Notes on the 'main' procedure/program
+**Nota Bene** On the 'main' procedure/program
 In Ada, the main procedure does not need to be called 'main', any name can be given.
 
 
-## WITH, USE, RENAMES
+** Nota Bene ** About WITH, USE, RENAMES
 
 - A with clause makes the content of a package visible by selection,
-
+```Ada
         with Ada.Text_IO;
         ..
             Ada.Text_IO.Put_Line("Hello, World");
+ ```
             
 - A 'use' clause makes all the content of a package directly visible. Less typing and less readability.
 
