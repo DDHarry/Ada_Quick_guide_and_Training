@@ -1,3 +1,3 @@
-# Some tips about Ada or Functional Programming
+# Some tips about Ada
 
 Test
