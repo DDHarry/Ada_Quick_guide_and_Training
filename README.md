@@ -31,11 +31,11 @@ The name of the program, cf. [ARM](link_here)
 with Ada.Text_IO;                 -- the "with / use" clauses part
 use Ada.Text_IO;
 
-procedure anatomy_program is
+procedure anatomy_program is      -- Procedure, function, package's name must be the file's one
   val1 : float  := 11             -- Variables declaration
 begin
   -- Some instructions            -- the program's instructions
-end
+end anatomy_program
   ```
 
 
