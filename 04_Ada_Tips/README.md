@@ -13,12 +13,13 @@
 
 ## Reminder
 
-• **About the 'main' procedure/program**
+### About the 'main' procedure/program
 
 In Ada, the main procedure does not need to be called 'main', any name can be given.
 
 
-**About *with, use, renames**
+
+### About *with, use, renames
 
 - A ```with``` clause makes the content of a package visible by selection,
 ```Ada
