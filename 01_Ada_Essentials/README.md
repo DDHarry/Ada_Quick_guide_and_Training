@@ -23,8 +23,8 @@
 • For portability choice, the Positive and Natural range are not related to the underlying computer architecture
 
 • Float'Image : convert the float into a string :
-'''Ada
+```Ada
 Ada_Text_IO.Put_Line("The min range of a float: " & Float'Image(Float'First)");
-'''
+```
  
 • Ada_Text_IO.Put(Total
