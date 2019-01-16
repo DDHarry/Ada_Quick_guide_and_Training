@@ -28,10 +28,13 @@ The name of the program, cf. [ARM](link_here)
 
 
 ```Ada
-with Ada.Text_IO;
+with Ada.Text_IO;                 -- the "with / use" clauses part
 use Ada.Text_IO;
+
+procedure anatomy_program is
+  val1 : float  := 11             -- Variables declaration
 begin
-  -- Some instructions
+  -- Some instructions            -- the program's instructions
 end
   ```
 
