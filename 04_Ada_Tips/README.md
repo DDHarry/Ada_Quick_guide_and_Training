@@ -48,6 +48,7 @@ In Ada, the main procedure does not need to be called 'main', any name can be gi
 
 
 ### A most general rule
-"use" for the most used packages (define them);
+
+"use" for the most used packages (define them; Ada.Text_IO could be one of them);
 
 "renames" for all other packages.
