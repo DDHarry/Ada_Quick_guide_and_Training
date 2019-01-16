@@ -11,9 +11,9 @@
 
 ### Attributes, apostrophes, tick
 
-• ```Ada Integer'First``` : to get the minimum value of the type integer. Here, the apostrophe, tick, single quote symbol denotes an attribute
+• ```Integer'First``` : to get the minimum value of the type integer. Here, the apostrophe, tick, single quote symbol denotes an attribute
 
-• Natural'Image(Natural'Last) : thee 'Image attribute turns an input natural into a string
+• ```Natural'Image(Natural'Last)``` : thee 'Image attribute turns an input natural into a string
 
 
 
@@ -27,4 +27,12 @@
 Ada_Text_IO.Put_Line("The min range of a float: " & Float'Image(Float'First)");
 ```
  
-• Ada_Text_IO.Put(Total
+• Scientific notation versus decimal one
+```Ada
+Total : Float := 963.347;
+ ..
+Ada_Text_IO.Put("Total is : " & Total);
+ ..
+Ada_Text_IO.Put("Total is : " & Total, Exp =>0);
+```
+
