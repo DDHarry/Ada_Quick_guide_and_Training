@@ -11,9 +11,9 @@
 
 ### Attributes, apostrophes, tick
 
-Integer'First : to get the minimum value of the type integer. Here, the apostrophe, tick, single quote symbol denotes an attribute
+• Integer'First : to get the minimum value of the type integer. Here, the apostrophe, tick, single quote symbol denotes an attribute
 
-Natural'Image(Natural'Last) : thee 'Image attribute turns an input natural into a string
+• Natural'Image(Natural'Last) : thee 'Image attribute turns an input natural into a string
 
 
 
