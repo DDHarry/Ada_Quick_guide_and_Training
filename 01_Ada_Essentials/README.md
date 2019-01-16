@@ -31,9 +31,10 @@ Ada_Text_IO.Put_Line("The min range of a float: " & Float'Image(Float'First)");
 • Scientific notation versus decimal one
 ```Ada
 Total : Float := 9633.427;
- ..
+    ...
 Ada_Text_IO.Put("Total is : " & Total);            -- gives 9.633427E+03
- ..
+    ...
 Ada_Text_IO.Put("Total is : " & Total, Exp =>0);   -- gives 9633.427
 ```
 
+• ``` AFloatVariable := Float(AnyInteger);```   : convert any integer into a float
