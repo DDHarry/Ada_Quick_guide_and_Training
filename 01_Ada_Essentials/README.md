@@ -21,7 +21,7 @@
 ### Ada types
 • Integer, Positive, Natural, Long_Integer, Long_Long_Integer ...
 
-• For portability choice, the Positive and Natural range are not related to the underlying computer architecture
+• For portability choice, the Positive and Natural ranges are not related to the underlying computer architecture
 
 • Float'Image : convert the float into a string :
 ```Ada
