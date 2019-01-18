@@ -72,8 +72,9 @@ In Ada, the main procedure does not need to be called 'main', any name can be gi
 
 
 ### General rule
-```use``` for the most used packages (define them);
-```renames``` for all other packages.
+For a better maintenance, improved readability, one is always suggested to use:
+- ```use``` for the most used packages (define them);
+- ```renames``` for all other packages.
 
 
 # 3. The *Hello World* program
