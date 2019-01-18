@@ -14,7 +14,7 @@ Hence, if we want to be more precise:
 - ```my_Ada_exe``` or even ```my_Ada.exe```if we want,
 we write,
 ```shell
-gnatmake main_mine.adb -D prog_path -o exe_dir/my_Ada_exe
+gnatmake main_mine.adb -D prog_path -o exe_dir/my_Ada.exe
 ```
 
 
