@@ -23,7 +23,7 @@ gnatmake main_mine.adb -D path_to_the_prog -o dir_for_executable/my_executable_f
 
 ## 2.a. The program
 
-The name of the program, cf. [ARM](link_here)
+The name of the program, cf. [ARM](link_here), should be ```anatomy_program.adb```, an Ada
 
 
 
