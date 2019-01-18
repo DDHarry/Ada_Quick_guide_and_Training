@@ -21,12 +21,11 @@ gnatmake main_mine.adb -D path_to_the_prog -o dir_for_executable/my_executable_f
 
 # 2. Anatomy of an Ada program
 
-## 2.a. The program
+## 2.a. The program  == REWRITE w/ my_function.adb | my_procedure.adb | my_package.adb & my_package.ads
 
-The name of the program, cf. [ARM](link_here), should be ```anatomy_program.adb```, an Ada
+You have three entities in Ada, which is object oriented, the function, the procedure and the package which can include many functions and procedures. For the purpose of illustration, we consider, respectively, ```my_func.adb```, ```my_proc.adb``` and ```my_packge```. The name of the program, cf. [ARM](link_here), should be the same as the entity's one.
 
-
-
+***Function***
 ```Ada
 with Ada.Text_IO;   use Ada.Text_IO;   -- the "with / use" clauses part
 
@@ -43,7 +42,8 @@ end anatomy_program
 • On the 'main' procedure/program
 In Ada, the main procedure does not need to be called 'main', any name can be given.
 
-• To get the full picture, Ada is a high integrity programming language. Hence, along with the ```*.adb```, Ada Body package, ```anatomy_program.adb```, comes a second file, the ```Ada Specification package```, ```*.ads```, named
+• To get the full picture, Ada is a high integrity programming language. Functions and procedures are included in a package
+Hence, along with the ```*.adb```, Ada Body package, ```anatomy_program.adb```, comes a second file, the ```Ada Specification package```, ```*.ads```, named
 ```Ada
 anatonmy-program.ads
 ```
