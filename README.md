@@ -28,13 +28,13 @@ The name of the program, cf. [ARM](link_here)
 
 
 ```Ada
-with Ada.Text_IO;                 -- the "with / use" clauses part
-use Ada.Text_IO;
+with Ada.Text_IO;   use Ada.Text_IO;   -- the "with / use" clauses part
 
-procedure anatomy_program is      -- Procedure, function, package's name must be the file's one
-  val1 : float  := 11             -- Variables declaration
+
+procedure anatomy_program is           -- Procedure, function, package's name must be the file's one
+  val1 : float  := 11;                 -- Variables declaration
 begin
-  -- Some instructions            -- the program's instructions
+  -- Some instructions                 -- the program's instructions
 end anatomy_program
   ```
 
@@ -72,9 +72,8 @@ In Ada, the main procedure does not need to be called 'main', any name can be gi
 
 
 ### General rule
-"use" for the most used packages (define them);
-
-"renames" for all other packages.
+```use``` for the most used packages (define them);
+```renames``` for all other packages.
 
 
 # 3. The *Hello World* program
