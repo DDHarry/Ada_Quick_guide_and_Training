@@ -20,14 +20,14 @@ gnatmake main_mine.adb -D prog_path -o exe_dir/my_Ada.exe
 
 ## 1.b. Running
 ```Bash
-./of_course
+./my_Ada.exe
 ```
 
 
 
 # 2. Anatomy of an Ada program
 
-## 2.a. The program
+## 2.a. The programs
 
 You have three entities in Ada, which is object oriented, the function, the procedure and the package which can include many functions and procedures. For the purpose of illustration, we consider, respectively, ```my_func.adb```, ```my_proc.adb``` and ```my_packge```. The name of the program, cf. [ARM](link_here), should be the same as the entity's one.
 
@@ -43,6 +43,22 @@ begin
 end anatomy_program
   ```
 
+**Procedure**
+```Ada
+with Ada.Text_IO;   use Ada.Text_IO;    -- the with / use clauses part
+
+procedure my_proc is
+  sum : Float :=  3.1415;               -- Variables declaration's part
+  ...
+begin
+  --Some instructions                   -- Instructions part
+end my_proc
+```
+
+**Package**
+```Ada
+with ... Patience is mother of success 
+```
 
 ### Nota Bene
 • On the 'main' procedure/program
