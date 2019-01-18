@@ -39,8 +39,11 @@ end anatomy_program
   ```
 
 
-**Nota Bene** On the 'main' procedure/program
+### Nota Bene
+• On the 'main' procedure/program
 In Ada, the main procedure does not need to be called 'main', any name can be given.
+• To get the full picture, Ada is a high integrity programming language. Hence, along with the ```*.adb```, Ada Body package, ```anatomy_program.adb```, comes a second file, the ```Ada Specification package```, named
+  - ```anatonmy-program.ads``.
 
 
 ## 2.b. About *with, use, renames*
