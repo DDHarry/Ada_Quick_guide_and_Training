@@ -7,11 +7,17 @@ Let us consider main_mine.adb as our program. Then
 gnatmake main_mine.adb
 ```
 By default, the executable output of "main_mine.adb" is "main_mine".
-Precising the paths,
 
+Hence, if we want to be more precise:
+- ```prog_path```, the directory where to put the products of the compilation;
+- ```exe_dir```, where to put the excutable file;
+- ```my_Ada_exe``` or even ```my_Ada.exe```if we want,
+we write,
 ```shell
-gnatmake main_mine.adb -D path_to_the_prog -o dir_for_executable/my_executable_file_with_the_name_i_want
+gnatmake main_mine.adb -D prog_path -o exe_dir/my_Ada_exe
 ```
+
+
 ## 1.b. Running
 ```Bash
 ./of_course
