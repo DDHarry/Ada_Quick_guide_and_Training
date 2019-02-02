@@ -1,7 +1,6 @@
-# 1.Running and compiling in Ada
+# 1.Running then compiling in Ada
 
-## 1.a. Compiling
-
+### Compiling
 Let us consider main_mine.adb as our program. Then ```gnatmake main_mine.adb``` is the simplest form. By default, the executable output of "main_mine.adb" is "main_mine". To be more precise, if we consider,
 - ```prog_path```, the directory where to put the products of the compilation;
 - ```exe_dir```, where to put the executable file;
@@ -13,7 +12,7 @@ gnatmake main_mine.adb -D prog_path -o exe_dir/main.exe
 ```
 
 
-## 1.b. Running
+### Running
 ```Bash
 ./main.exe
 ```
