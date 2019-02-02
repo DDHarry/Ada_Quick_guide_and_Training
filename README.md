@@ -40,7 +40,7 @@ end my_func
   ```
 
 ### Procedure
-File ```my_proc.adb```
+File :```my_proc.adb```
 ```Ada
 with Ada.Text_IO;   use Ada.Text_IO;    -- the with / use clauses part
 
