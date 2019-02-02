@@ -38,7 +38,8 @@ begin
 end my_func
   ```
 
-**Procedure**
+### Procedure
+Recorded in the file ```my_proc.adb```
 ```Ada
 with Ada.Text_IO;   use Ada.Text_IO;    -- the with / use clauses part
 
@@ -50,7 +51,8 @@ begin
 end my_proc
 ```
 
-**Package**
+
+### Package
 ```Ada
 with ... Patience is mother of success 
 ```
