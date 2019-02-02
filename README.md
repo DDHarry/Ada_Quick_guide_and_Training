@@ -2,11 +2,7 @@
 
 ## 1.a. Compiling
 
-Let us consider main_mine.adb as our program. Then
-```bash
-gnatmake main_mine.adb
-```
-By default, the executable output of "main_mine.adb" is "main_mine".
+Let us consider main_mine.adb as our program. Then ```bash gnatmake main_mine.adb``` is the simplest form. By default, the executable output of "main_mine.adb" is "main_mine".
 
 Hence, if we want to be more precise:
 - ```prog_path```, the directory where to put the products of the compilation;
