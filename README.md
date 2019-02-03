@@ -4,17 +4,17 @@
 Let us consider main_mine.adb as our program. Then ```gnatmake main_mine.adb``` is the simplest form. By default, the executable output of "main_mine.adb" is "main_mine". To be more precise, if we consider,
 - ```prog_path```, the directory where to put the products of the compilation;
 - ```exe_dir```, where to put the executable file;
-- ```main.exe``` this produced executable program,
+- ```myMain.exe```, or any other name, for this produced executable program,
 
 then, to compile, we write,
 ```shell
-gnatmake main_mine.adb -D prog_path -o exe_dir/main.exe
+gnatmake main_mine.adb -D prog_path -o exe_dir/myMain.exe
 ```
 
 
 ### Running
 ```Bash
-./main.exe
+./myMain.exe
 ```
 
 
