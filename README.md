@@ -26,7 +26,7 @@ gnatmake main_mine.adb -D prog_path -o exe_dir/main.exe
 You have three entities in Ada, which is object oriented, the function, the procedure and the package which can include many functions and procedures. For the purpose of illustration, we consider, respectively, ```my_func.adb```, ```my_proc.adb``` and ```my_packge```. The name of the program, cf. [ARM](link_here), should be the same as the entity's one.
 
 ### Function
-File : ```my_func.adb```
+File :```my_func.adb```
 
 ```Ada
 with Ada.Text_IO;   use Ada.Text_IO;   -- the "with / use" clauses part
@@ -54,6 +54,7 @@ end my_proc
 
 
 ### Package
+Specification package's name : ```my_pack.ads```
 ```Ada
 with ... Patience is mother of success 
 ```
