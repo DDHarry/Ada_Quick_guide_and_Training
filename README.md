@@ -29,13 +29,13 @@ You have three entities in Ada, which is object oriented, the function, the proc
 File :```my_func.adb```
 
 ```Ada
-with Ada.Text_IO;   use Ada.Text_IO;   -- the "with / use" clauses part
+with Ada.Text_IO;   use Ada.Text_IO;    -- the "with / use" clauses part
 
 
-procedure my_func is           -- Procedure, function, package's name must be the file's one
-  val1 : float  := 11;         -- Variables declaration
+procedure my_func is                    -- Procedure, function, package's name must be the file's one
+  val1 : float  := 11;                  -- Variables declaration
 begin
-  -- Some instructions         -- the program's instructions
+  -- Some instructions                  -- the program's instructions
 end my_func
   ```
 
